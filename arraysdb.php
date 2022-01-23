@@ -60,7 +60,7 @@ $arrayPasajeros=array(
     array("Vuelo"=>"Volotea-EA21", "Pasajeros"=>"66"),
     array("Vuelo"=>"Iberia-WE44", "Pasajeros"=>"40"),
     array("Vuelo"=>"Ryanair-EW44", "Pasajeros"=>"77"),
-    array("Vuelo"=>"Vueling-ZK87", "Pasajeros"=>"82"), 
+    array("Vuelo"=>"Vueling-ZK87", "Pasajeros"=>"82")
 );
 
 ?>
