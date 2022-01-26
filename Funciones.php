@@ -44,7 +44,15 @@ function ultimosDestinos ($arrayDestino,$selector){
     }
 
 #Función Fabricantes
-function Fabricante 
+function Fabricante ($arrayFabricante, $selector){
+    foreach ($arrayFabricante as $fabrica){
+        $fabrican=$fabrica["Fabricante"];
+        $vuelo=$fabrica["Vuelo"];
+        if ($vuelo==$selector){
+            echo "El fabricante es: ". $fabrican;
+        }
+    }
+}
 #Función Minutos Totales
 
 ?>
