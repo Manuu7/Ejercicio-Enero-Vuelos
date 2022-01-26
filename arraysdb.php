@@ -63,4 +63,15 @@ $arrayPasajeros=array(
     array("Vuelo"=>"Vueling-ZK87", "Pasajeros"=>"82")
 );
 
+$arraycompañia=array(
+    array("Vuelo"=>"Vueling-AE12","Compañia"=>"Vueling"),
+    array("Vuelo"=>"Volotea-EA21","Compañia"=>"Volotea"),
+    array("Vuelo"=>"Iberia-WE44","Compañia"=>"Iberia"),
+    array("Vuelo"=>"Ryanair-EW44","Compañia"=>"Ryanair"),
+    array("Vuelo"=>"Vueling-ZK87","Compañia"=>"Vueling"),
+    array("Vuelo"=>"Volotea-UA21","Compañia"=>"Volotea"),
+    array("Vuelo"=>"Iberia-WH44","Compañia"=>"Iberia"),
+    array("Vuelo"=>"Ryanair-EL00","Compañia"=>"Ryanair")
+    );
+
 ?>

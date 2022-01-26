@@ -1,9 +1,9 @@
 <?php
 include_once 'arraysdb.php';
 include_once 'Funciones.php';
-$operador=$_POST["operando"];
+$selector=$_POST["operando"];
 
-
-
+compañia ($arraycompañia, $selector);
+Pasajeros ($arrayPasajeros, $selector);
 
 ?>
