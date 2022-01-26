@@ -26,7 +26,6 @@ function mediaPasajeros ($arrayPasajeros, $selector){
         $contador++;
         }
     }
-
 echo "La media de pasajeros es: " .$numero/$contador. "<br>";
 }
 
@@ -38,10 +37,10 @@ function ultimosDestinos ($arrayDestino,$selector){
            $vuelo=$udestinos["Vuelo"];
            if ($vuelo==$selector) {
               echo  $destino." , ";
-            }
+        }
     }
     echo "<br>";
-    }
+ }
 
 #Función Fabricantes
 function Fabricante ($arrayFabricante, $selector){
