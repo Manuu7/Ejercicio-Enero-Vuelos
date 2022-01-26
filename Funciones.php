@@ -8,7 +8,7 @@ function compañia ($arraycompañia, $selector){
         $compa=$compañia["Compañia"];
         $vuelo=$compañia["Vuelo"];
         if ($vuelo == $selector){
-            echo $compa. "<br>";
+            echo "La compañia es: ".$compa. "<br>";
         }
     }
 }
@@ -49,10 +49,22 @@ function Fabricante ($arrayFabricante, $selector){
         $fabrican=$fabrica["Fabricante"];
         $vuelo=$fabrica["Vuelo"];
         if ($vuelo==$selector){
-            echo "El fabricante es: ". $fabrican;
+            echo "El fabricante es: ". $fabrican. "<br>";
         }
     }
 }
-#Función Minutos Totales
+
+#Función Minutos Totales de Vuelo
+function minutosVuelo ($arrayDuracion, $selector){
+    $numero=0;
+    foreach ($arrayDuracion as $durar){
+        $duracion=$durar["Duracion"];
+        $vuelo=$durar["Vuelo"];
+        if ($vuelo==$selector){
+            $numero=$numero+$duracion;
+        }
+    }
+    echo "Minutos totales de vuelo: ". $numero;
+}
 
 ?>

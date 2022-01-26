@@ -7,4 +7,5 @@ compañia ($arraycompañia, $selector);
 mediaPasajeros ($arrayPasajeros, $selector);
 ultimosDestinos ($arrayDestino, $selector);
 Fabricante ($arrayFabricante, $selector);
+minutosVuelo ($arrayDuracion, $selector);
 ?>
