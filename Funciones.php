@@ -14,7 +14,7 @@ function compañia ($arraycompañia, $selector){
 }
 
 #Función Media de pasajeros
-function Pasajeros ($arrayPasajeros, $selector){
+function mediaPasajeros ($arrayPasajeros, $selector){
     $numero=0;
     $contador=0;
     foreach ($arrayPasajeros as $pasajeros) {
@@ -28,12 +28,23 @@ function Pasajeros ($arrayPasajeros, $selector){
     }
 
 echo "La media de pasajeros es: " .$numero/$contador. "<br>";
-
-
-
 }
+
 #Función  Ultimos destinos
+function ultimosDestinos ($arrayDestino,$selector){
+    echo "Ultimos destinos: ";
+    foreach ($arrayDestino as $udestinos) {
+           $destino=$udestinos["Destino"];
+           $vuelo=$udestinos["Vuelo"];
+           if ($vuelo==$selector) {
+              echo  $destino." , ";
+            }
+    }
+    echo "<br>";
+    }
+
 #Función Fabricantes
+function Fabricante 
 #Función Minutos Totales
 
 ?>

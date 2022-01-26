@@ -4,6 +4,7 @@ include_once 'Funciones.php';
 $selector=$_POST["operando"];
 
 compañia ($arraycompañia, $selector);
-Pasajeros ($arrayPasajeros, $selector);
+mediaPasajeros ($arrayPasajeros, $selector);
+ultimosDestinos ($arrayDestino, $selector);
 
 ?>
