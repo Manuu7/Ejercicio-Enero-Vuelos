@@ -63,7 +63,38 @@ function minutosVuelo ($arrayDuracion, $selector){
             $numero=$numero+$duracion;
         }
     }
-    echo "Minutos totales de vuelo: ". $numero;
+    echo "Minutos totales de vuelo: ". $numero. "<br>";
 }
 
+#Función Media de horas voladas
+function mediaHoras ($arrayDuracion, $selector){
+    $numero=0;
+    $contador=0;
+    foreach ($arrayDuracion as $durar) {
+        $vuelo=$durar['Vuelo'];
+        $duracion=$durar['Duracion'];
+
+        if ($vuelo==$selector){
+        $numero=$numero+$duracion;
+        $contador++;
+        }
+    }
+$numero=$numero/$contador;
+$numero=$numero/60;
+echo "La media de horas voladas es: " .$numero/$contador. "<br>";
+}
+
+#FUNCIÓN Pasajeros totales
+function pasajerosTotales($arrayPasajeros,$selector){
+
+    $numero=0;
+    foreach ($arrayPasajeros as $ptotales) {
+        $totales=$ptotales["Pasajeros"];
+        $vuelo=$ptotales["Vuelo"];
+        if ($vuelo==$selector) {
+            $numero=$numero+$totales;
+        }
+    }
+    echo "Pasajeros totales: ". $numero."<br>";
+}
 ?>
