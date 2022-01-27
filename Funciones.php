@@ -97,4 +97,17 @@ function pasajerosTotales($arrayPasajeros,$selector){
     }
     echo "Pasajeros totales: ". $numero."<br>";
 }
+
+#Función  Destinos
+function Destinos ($arrayDestino,$selector){
+    echo "Los destinos del avion son: ";
+    foreach ($arrayDestino as $destinos) {
+           $destino=$destinos["Destino"];
+           $vuelo=$destinos["Vuelo"];
+           if ($vuelo==$selector) {
+              echo  $destino." , ";
+        }
+    }
+    echo "<br>";
+ }
 ?>
